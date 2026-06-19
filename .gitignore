@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+
+# Rider
+.idea/
+
+# Test results
+TestResults/
+
+# VSCode
+.vscode/
+
+# Dotnet
+*.db
+*.pdb
+
+# Logs
+*.log
+
+# Others
+*.DS_Store
+
+# Ignore local secrets
+.env
+appsettings.Development.json
